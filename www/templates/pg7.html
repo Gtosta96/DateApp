@@ -1,0 +1,101 @@
+<ion-view ng-controller="pg7" view-title="(Talvez, quem sabe? &#9829;)">
+	<ion-content scroll="true" overflow-scroll="false" class="padding-top">
+		
+	      <div class="center row">
+  			<div class="col col-50">
+  				<img class="full-image" src="img/img5.jpg">
+  			</div>
+  			<div class="col col-50">
+  				<img class="full-image" src="img/img9.jpg">
+  			</div>		
+	      </div>
+	      
+	      <div class="center row">
+  			<div class="col col-50">
+  				<img class="full-image" src="img/img1.jpg">
+  			</div>
+  			<div class="col col-50">
+  				<img class="full-image" src="img/img2.jpg">
+  			</div>		
+	      </div>
+	      
+	      <div class="center row">
+  			<div class="col col-50">
+  				<img class="full-image" src="img/img11.jpg">
+  			</div>
+  			<div class="col col-50">
+  				<img class="full-image" src="img/img12.jpg">
+  			</div>		
+	      </div>
+	      
+	      <div class="center row">
+  			<div class="col col-50">
+  				<img class="full-image" src="img/img16.jpg">
+  			</div>
+  			<div class="col col-50">
+  				<img class="full-image" src="img/img17.jpg">
+  			</div>		
+	      </div>
+	      
+	      <div class="center row">
+  			<div class="col col-50">
+  				<img class="full-image" src="img/img3_2.jpg">
+  			</div>
+  			<div class="col col-50">
+  				<img class="full-image" src="img/img14.jpg">
+  			</div>		
+	      </div>
+	      
+	      <div class="center row">
+  			<div class="col col-50">
+  				<img class="full-image" src="img/img8.jpg">
+  			</div>
+  			<div class="col col-50">
+  				<img class="full-image" src="img/img15.jpg">
+  			</div>		
+	      </div>
+	      
+	      <div class="center row">
+  			<div class="col col-50">
+				<img class="full-image" src="img/img4.jpg">
+  			</div>
+  			<div class="col col-50">
+  				<img class="full-image" src="img/img7.jpg">
+  			</div>		
+	      </div>
+	      
+  		  <div class="center row">
+			<div class="col col-50">
+  				<img class="full-image" src="img/img18.jpg">
+  			</div>
+  			<div class="col col-50">
+  				<img class="full-image" src="img/img19.jpg">
+  			</div>		
+  		  </div>
+  		  
+  		  <div ng-show="extraGame" class="list card">		
+		  	<div class="item item-body">
+			    <p>
+			        <p class="center"><b>Achou que tinha acabado? Nananinan&atilde;o!</b></p>
+			        <p>Coloquei palavras aleat&oacute;rias no topo de cada p&aacute;gina. 
+			        Para continuar, coloque a <b>frase em ordem correta</b> no campo abaixo e assim te direi onde escondi a chave do meu quarto!</p>
+		      	</p>
+		      	<div class="list border-black">
+					<label class="item item-input item-floating-label">
+						<span class="input-label">Digitando...</span>
+						<input ng-model="carolResposta" type="text" placeholder="Amor, digite aqui sua resposta! &#9829;">
+					</label>
+				</div>
+			    <p>
+			      <button ng-click="submit(carolResposta)" class="button button-block button-royal">
+					<b>ME D&Aacute; ESSA CHAVE LOGO, PELO AMOR DE DEUS!</b>
+				  </button>
+				</p>
+		    </div>
+		   </div>
+				  
+	</ion-content>
+		<div class="restart" ng-click="go()">
+			<i class="icon-restart ion-refresh"></i>
+        </div>
+</ion-view>

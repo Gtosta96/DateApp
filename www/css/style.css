@@ -1,0 +1,37 @@
+.center, ::-webkit-input-placeholder {
+	text-align: center;
+}
+
+.question {
+	text-align: center;
+	padding: 3px;
+	display: inline;
+}
+
+.ion-help-circled {
+	float: right;
+	color: #886aea;
+	font-size: 22px;
+}
+
+.border-black {
+	border: 1px solid #000;
+}
+
+.restart {
+	position: fixed;
+	display: block;
+  	width: 60px;
+    height: 60px;
+  	bottom: 5px;
+  	right: 5px;
+    border-radius: 100%;
+    float: right;
+    background-color: #886aea;
+}
+
+.ion-refresh:before {
+	font-size: 35px;
+	color: white;
+	padding: 12px 16px;
+}

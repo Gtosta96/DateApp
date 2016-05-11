@@ -1,0 +1,30 @@
+<ion-view ng-controller="pg2" view-title="VIDA?">
+		<ion-content class="padding" scroll="true">
+		
+			<div class="list card">		
+			  	<div class="item center">
+				    <h2 class="question">Pergunta 02:</h2>
+				    	<i ng-click="help()" class="ion-help-circled"></i>
+				</div>
+		
+			    <div class="item item-body">
+			      <img class="full-image" src="img/img2.jpg">
+			      <p class="center">
+			        Complete a frase, <b>EU TE...</b>
+			      </p>
+			      <p>
+				      <div class="list border-black">
+						  <label class="item item-input item-floating-label">
+						    <span class="input-label">Digitando...</span>
+						    <input ng-model="carolResposta" type="text" placeholder="Amor, digite aqui sua resposta! &#9829;">
+						  </label>
+					  </div>
+				      <button ng-click="submit(carolResposta)" class="button button-block button-royal">
+	 				  	Ser&aacute; que estou certa?
+					  </button>
+			      </p>
+			    </div>
+			</div>
+	
+	</ion-content>
+</ion-view>
