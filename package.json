@@ -2,15 +2,20 @@
     "name": "DateApp",
     "version": "0.0.1",
     "description": "An Ionic project",
+    "scripts": {
+        "start": "./node_modules/.bin/ionic serve"
+    },
     "devDependencies": {
         "@ionic/cli-plugin-cordova": "1.6.2",
         "@ionic/cli-plugin-gulp": "1.1.1",
         "@ionic/cli-plugin-ionic1": "2.1.1",
+        "@ionic/v1-toolkit": "1.0.9",
+        "cordova": "^8.1.1",
         "gulp": "^3.5.6",
         "gulp-clean-css": "^3.7.0",
         "gulp-rename": "^1.2.0",
         "gulp-sass": "^3.1.0",
-        "ionic": "3.7.0"
+        "ionic": "^4.2.0"
     },
     "dependencies": {
         "cordova-android": "^6.2.3",
