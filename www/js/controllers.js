@@ -214,6 +214,6 @@ app.controller('pg7', function($scope, $state, $ionicPopup, $timeout) {
 	}
 	
 	$scope.go = function () {
-		$state.go("pg1")	
+		$state.go("pg1")
 	}
 });
