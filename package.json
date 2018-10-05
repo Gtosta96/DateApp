@@ -4,7 +4,9 @@
     "description": "An Ionic project",
     "scripts": {
         "start": "./node_modules/.bin/ionic serve",
-        "install:android": "./node_modules/.bin/ionic cordova run android"
+        "build:android": "./node_modules/.bin/ionic cordova build android",
+        "run:android": "./node_modules/.bin/ionic cordova run android",
+        "install:android": "npm run build:android && npm run run:android"
     },
     "devDependencies": {
         "@ionic/cli-plugin-cordova": "1.6.2",

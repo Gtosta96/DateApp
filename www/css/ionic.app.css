@@ -9346,7 +9346,10 @@ a.button {
     content: "."; }
 
 .full-image {
-  width: 100%; }
+  width: 100%;
+  -webkit-filter: blur(20px);
+  /* Safari 6.0 - 9.0 */
+  filter: blur(20px); }
 
 .clearfix {
   *zoom: 1; }
